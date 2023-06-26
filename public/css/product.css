@@ -6,7 +6,6 @@ body {
 
 main {
   padding: 1rem;
-
 }
 
 .main-header {
@@ -26,12 +25,12 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex
+  display: flex;
 }
 
 .main-header__item {
-  margin:0 1rem;
-  padding:0;
+  margin: 0 1rem;
+  padding: 0;
 }
 
 .main-header__item a {
@@ -47,7 +46,7 @@ main {
 
 .product-form {
   width: 20rem;
-  max-width:90%;
+  max-width: 90%;
   margin: auto;
 }
 
@@ -79,5 +78,5 @@ button {
 button:hover,
 button:active {
   background-color: #6200ff;
-  color: white
+  color: white;
 }
