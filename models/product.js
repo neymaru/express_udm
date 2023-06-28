@@ -25,5 +25,7 @@ module.exports = class Product {
   }
 
   // 제품 하나 불러오기
-  static findById(id) {}
+  static findById(id) {
+    return db.execute("SELECT * FROM products WHERE products.id = ?", [id]);
+  }
 };
